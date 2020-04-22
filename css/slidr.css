@@ -1,0 +1,51 @@
+.slidr-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slidr-items-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-touch-action: none;
+}
+.slidr-items {
+  overflow: hidden;
+  width: 9999px;
+}
+.slidr-item {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+.slidr-item img {
+  width: auto;
+  float: left;
+  height: 100%;
+}
+.slidr-container .slidr-nav {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.slidr-nav-hidden {
+  display: none;
+}
+.slidr-click-next {
+  text-align: right;
+}
+.slidr-click-prev {
+  text-align: left;
+}
+.slidr-click-next .slidr-item img {
+  position: absolute;
+  left: 0;
+}
+.slidr-click-prev .slidr-item img {
+  position: absolute;
+  right: 0;
+}

@@ -1,0 +1,904 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Slidr\n"
+"POT-Creation-Date: 2015-09-19 01:35+0200\n"
+"PO-Revision-Date: 2015-04-17 00:18+0200\n"
+"Last-Translator: Giorgos Sarigiannidis <contact@gsarigiannidis.gr>\n"
+"Language-Team: Giorgos Sarigiannidis <contact@gsarigiannidis.gr>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/markup.php:39 inc/markup.php:57 inc/slidr-loop.php:15
+msgid "Loading..."
+msgstr ""
+
+#: inc/slidr-loop.php:9
+msgid "No content to show..."
+msgstr ""
+
+#: options.php:27
+msgid "Main Settings"
+msgstr ""
+
+#: options.php:28
+msgid "WordPress Gallery"
+msgstr ""
+
+#: options.php:29
+msgid "Slidr Defaults"
+msgstr ""
+
+#: options.php:30
+msgid "Documentation"
+msgstr ""
+
+#: options.php:46 options.php:99
+msgid "Slidr Options"
+msgstr ""
+
+#: options.php:46
+msgid "Slidr"
+msgstr ""
+
+#: options.php:102
+msgid "Options updated."
+msgstr ""
+
+#: options.php:117
+msgid "Save Changes"
+msgstr ""
+
+#: options.php:245
+msgid "Upload"
+msgstr ""
+
+#: options.php:314
+msgid "Appearance"
+msgstr ""
+
+#: options.php:316
+msgid ""
+"You can add a carousel on any page you like with the <code>[slidr]</code> "
+"shortcode. To add the shortcode directly in your php code, use <code>&lt;?"
+"php echo do_shortcode( '[slidr]' ); ?&gt;</code>. The shortcode has many "
+"parameters that you can adjust like so: <code>[slidr parameter=\"value\"]</"
+"code>. For a full list of the available options, please check the "
+"<strong>Documentation</strong> tab."
+msgstr ""
+
+#: options.php:321
+msgid "Carousel style"
+msgstr ""
+
+#: options.php:322
+msgid ""
+"Select the carousel style. If you want to style it yourself or have "
+"different style for each carousel you use, disable it."
+msgstr ""
+
+#: options.php:326
+msgid "Default"
+msgstr ""
+
+#: options.php:327
+msgid "Disabled (no style)"
+msgstr ""
+
+#: options.php:332
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:333
+msgid ""
+"Add your custom CSS here. If you want to use an external stylesheet file, "
+"just leave this blank."
+msgstr ""
+
+#: options.php:342
+msgid "Navigation buttons"
+msgstr ""
+
+#: options.php:347
+msgid "Previous"
+msgstr ""
+
+#: options.php:348
+msgid ""
+"Change the \"previous\" arrow. You can use text or custom fonts (e.g. Font "
+"Awesome)."
+msgstr ""
+
+#: options.php:355
+msgid "Next"
+msgstr ""
+
+#: options.php:356
+msgid ""
+"Change the \"next\" arrow. You can use text or custom fonts (e.g. Font "
+"Awesome)."
+msgstr ""
+
+#: options.php:364
+msgid "Performance"
+msgstr ""
+
+#: options.php:366
+msgid ""
+"You dont' need to load the plugins' styles and scripts when they are not in "
+"use. If you want to load them on specific pages, select them below. To keep "
+"them called everywhere, leave all options un-checked. To further customize "
+"conditional loading, use the <code>slidr_conditional()</code> function as "
+"described on the <strong>Documentation</strong> tab."
+msgstr ""
+
+#: options.php:370
+msgid "Condition"
+msgstr ""
+
+#: options.php:371
+msgid ""
+"Select whether the checked options below will get excluded (default) or "
+"included. In both cases, if none of the following checkboxes is checked, "
+"scripts will get called everywhere."
+msgstr ""
+
+#: options.php:375
+msgid "Include"
+msgstr ""
+
+#: options.php:376
+msgid "Exclude"
+msgstr ""
+
+#: options.php:381
+msgid "Front Page"
+msgstr ""
+
+#: options.php:382
+msgid "When on the Front Page (equals to <code>is_front_page()</code>)."
+msgstr ""
+
+#: options.php:388
+msgid "Main Page"
+msgstr ""
+
+#: options.php:389
+msgid "When on the Main Page (equals to <code>is_home()</code>)."
+msgstr ""
+
+#: options.php:395
+msgid "Single Posts"
+msgstr ""
+
+#: options.php:396
+msgid ""
+"When on single posts of any post type (except attachment and page post "
+"types).  (equals to <code>is_single()</code>)."
+msgstr ""
+
+#: options.php:402
+msgid "Pages"
+msgstr ""
+
+#: options.php:403
+msgid "When on pages.  (equals to <code>is_page()</code>)."
+msgstr ""
+
+#: options.php:409
+msgid "Archives"
+msgstr ""
+
+#: options.php:410
+msgid ""
+"When on any type of Archive page. Category, Tag, other Taxonomy Term, custom "
+"post type archive, Author and Date-based pages are all types of Archives.  "
+"(equals to <code>is_archive()</code>)."
+msgstr ""
+
+#: options.php:422
+msgid "Slidr for Gallery"
+msgstr ""
+
+#: options.php:424
+msgid ""
+"Replace the default WordPress gallery (<code>[gallery]</code> shortcode) "
+"with Slidr. Doing so you will be able to use the default gallery management "
+"mechanism of WordPress as usual and the output will be displayed in a Slidr "
+"carousel. In a typical use case, you wouldn't need to mess with shortcodes - "
+"just create a gallery via the WordPress editor as you would anyway and see "
+"the results."
+msgstr ""
+
+#: options.php:429
+msgid "Use Slidr for Gallery"
+msgstr ""
+
+#: options.php:430
+msgid "Replace the default WordPress gallery with Slidr."
+msgstr ""
+
+#: options.php:438
+msgid "Default settings"
+msgstr ""
+
+#: options.php:440
+msgid ""
+"Set the defaults for the <code>[gallery]</code> shortcode. Only works if "
+"<strong>Slidr for Gallery</strong> is enabled."
+msgstr ""
+
+#: options.php:444 options.php:553
+msgid "Carousel height"
+msgstr ""
+
+#: options.php:445 options.php:554
+msgid "Change the default (which is 150 pixels) height of the carousel."
+msgstr ""
+
+#: options.php:451 options.php:671
+msgid "Thumbnail size"
+msgstr ""
+
+#: options.php:452 options.php:672
+msgid ""
+"Default is <code>thumbnail</code>. Other options usually include "
+"<code>medium</code>, <code>large</code> and <code>original</code>, but you "
+"can use your own registered sizes as well."
+msgstr ""
+
+#: options.php:458 options.php:560
+msgid "Show loader"
+msgstr ""
+
+#: options.php:459 options.php:561
+msgid ""
+"Show a \"loading\" animation untill all items are loaded. Uncheck to disable."
+msgstr ""
+
+#: options.php:465 options.php:567
+msgid "Cycle items"
+msgstr ""
+
+#: options.php:466 options.php:568
+msgid ""
+"If enabled, when the carousel reaches it's first or last item, instead of "
+"stopping it loads the last or first item respectivelly, simulating a "
+"circular move. Auto scroll enables the cycling and scrolls it automatically."
+msgstr ""
+
+#: options.php:470 options.php:508 options.php:572 options.php:713
+msgid "Disabled"
+msgstr ""
+
+#: options.php:471 options.php:507 options.php:573 options.php:712
+msgid "Enabled"
+msgstr ""
+
+#: options.php:472 options.php:574
+msgid "Auto scroll"
+msgstr ""
+
+#: options.php:477 options.php:580
+msgid "Autoscroll speed"
+msgstr ""
+
+#: options.php:478 options.php:581
+msgid ""
+"Autoscroll speed in miliseconds (1000ms = 1 second). Default is 4000 (4 "
+"seconds)."
+msgstr ""
+
+#: options.php:484 options.php:587
+msgid "Show navigation"
+msgstr ""
+
+#: options.php:485 options.php:588
+msgid "If you want to hide the navigation buttons, uncheck this."
+msgstr ""
+
+#: options.php:491
+msgid "Show additional information (namely, title and caption) on mouseover."
+msgstr ""
+
+#: options.php:492 options.php:525 options.php:686 options.php:697
+#: options.php:719 options.php:730
+msgid "Default is \"yes\"."
+msgstr ""
+
+#: options.php:496
+msgid "yes (Show title and caption)"
+msgstr ""
+
+#: options.php:497
+msgid "no (Do not show title and caption)"
+msgstr ""
+
+#: options.php:502 options.php:707
+msgid "Use caption as title if title is empty or same as item's filename."
+msgstr ""
+
+#: options.php:503 options.php:708
+msgid ""
+"When you upload an image, WordPress gets its filename and displays it as the "
+"title. If Slidr finds that the title and filename are the same and if a "
+"caption exists, it uses the caption as the item]'s title. Otherwise it will "
+"hide the infobox for the particular item. If for some reason you don't like "
+"that behaviour, you can disable it here."
+msgstr ""
+
+#: options.php:513
+msgid "Show caption."
+msgstr ""
+
+#: options.php:514
+msgid "Default is \"no\"."
+msgstr ""
+
+#: options.php:518
+msgid "yes (Show the caption)"
+msgstr ""
+
+#: options.php:519
+msgid "no (Do not show the caption)"
+msgstr ""
+
+#: options.php:524 options.php:729
+msgid "Image link."
+msgstr ""
+
+#: options.php:529 options.php:734
+msgid "yes (Use image link)"
+msgstr ""
+
+#: options.php:530 options.php:735
+msgid "no (Remove image link)"
+msgstr ""
+
+#: options.php:540
+msgid "Override defaults"
+msgstr ""
+
+#: options.php:542
+msgid ""
+"Perhaps you don't intent to use many different types of carousel but instead "
+"you want to use it in a very specific way. For example, always get the same "
+"post type, or always use it as a simple image gallery etc. To avoid passing "
+"the same parameters everytime you use the shortcode, you can set the "
+"defaults below. That way, you can get the desired result with a simple "
+"<code>[slidr]</code>. Passing parameters for each shortcode is still valid "
+"and if you do so, it will override those defaults. The plugin takes "
+"advantage of the <code>WP_Query</code> class. If you are uncertain on which "
+"value you should put in each of the parameters below, you can check the "
+"respective documentation in the <a href=\"http://codex.wordpress.org/"
+"Class_Reference/WP_Query\" target=\"_blank\">Codex</a>."
+msgstr ""
+
+#: options.php:548
+msgid "Basic options"
+msgstr ""
+
+#: options.php:596 options.php:602
+msgid "Gallery mode"
+msgstr ""
+
+#: options.php:603
+msgid ""
+"Instead of posts, the Carousel can be used in \"Gallery mode\" displaying "
+"the images attached to the post in which you call it. By default it is "
+"disabled."
+msgstr ""
+
+#: options.php:607
+msgid "yes (Enable gallery mode)"
+msgstr ""
+
+#: options.php:608
+msgid "no (Disable gallery mode)"
+msgstr ""
+
+#: options.php:613
+msgid "Items link to:"
+msgstr ""
+
+#: options.php:614
+msgid ""
+"Whether the link should lead to the attachment page or the actual media file "
+"if gallery mode is enabled. Default is the Media file."
+msgstr ""
+
+#: options.php:618
+msgid "Media file"
+msgstr ""
+
+#: options.php:619
+msgid "Attachment page"
+msgstr ""
+
+#: options.php:626
+msgid "The Query"
+msgstr ""
+
+#: options.php:632
+msgid "Post type"
+msgstr ""
+
+#: options.php:633
+msgid "Default is <code>post</code>."
+msgstr ""
+
+#: options.php:639
+msgid "Items' number"
+msgstr ""
+
+#: options.php:640
+msgid "Default is <code>10</code>"
+msgstr ""
+
+#: options.php:646
+msgid "Category"
+msgstr ""
+
+#: options.php:647
+msgid ""
+"Default is disabled, to get all categories. To get items from a specific "
+"category, use the category ID. You can have multiple categories by adding "
+"IDs separated by comma, like so <code>1,2,3</code>."
+msgstr ""
+
+#: options.php:653
+msgid "Order By"
+msgstr ""
+
+#: options.php:654
+msgid "Default is <code>date</code>."
+msgstr ""
+
+#: options.php:660
+msgid "Order type"
+msgstr ""
+
+#: options.php:661
+msgid "Default is \"DESC\"."
+msgstr ""
+
+#: options.php:665
+msgid "DESC (Descending)"
+msgstr ""
+
+#: options.php:666
+msgid "ASC (Ascending)"
+msgstr ""
+
+#: options.php:680
+msgid "Item content"
+msgstr ""
+
+#: options.php:685
+msgid "Show thumbnails"
+msgstr ""
+
+#: options.php:690
+msgid "yes (Show thumbnails)"
+msgstr ""
+
+#: options.php:691
+msgid "no (Do not show thumbnails)"
+msgstr ""
+
+#: options.php:696
+msgid "Show additional information (namely, title and excerpt) on mouseover."
+msgstr ""
+
+#: options.php:701
+msgid "yes (Show title and excerpt)"
+msgstr ""
+
+#: options.php:702
+msgid "no (Do not show title and excerpt)"
+msgstr ""
+
+#: options.php:718
+msgid "Show excerpt."
+msgstr ""
+
+#: options.php:723
+msgid "yes (Show the excerpt)"
+msgstr ""
+
+#: options.php:724
+msgid "no (Do not show the excerpt)"
+msgstr ""
+
+#: options.php:745
+msgid "Available parameters"
+msgstr ""
+
+#: options.php:747
+msgid ""
+"The plugin takes advantage of the <code>WP_Query</code> class. If you are "
+"uncertain on which value you should put in each of the parameters below, you "
+"can check its documentation in the <a href=\"http://codex.wordpress.org/"
+"Class_Reference/WP_Query\" target=\"_blank\">Codex</a>."
+msgstr ""
+
+#: options.php:747
+msgid ""
+"\n"
+"\t\t\t\t\t<li><code>[slidr height=\"some_number\"]</code> : Set the height "
+"for the specific carousel, overriding the defaults like so: <code>[slidr "
+"height=\"200\"]</code>. That way you can have carousels of different sizes "
+"in different pages of your website.</li>\n"
+"\t\t\t\t\t<li><code>[slidr loader=\"no\"]</code> : Shows a \"loading\" "
+"animation until all items are loaded. By default it is enabled.</li>\n"
+"\t\t\t\t\t<li><code>[slidr cycle=\"yes\"]</code> : If enabled, when the "
+"carousel reaches its first or last item, instead of stopping it loads the "
+"last or first item respectivelly, simulating a circular move. With "
+"<code>[slidr cycle=\"auto\"]</code> you can enable autoscoll, which animates "
+"the carousel automatically every 4 seconds.</li>\n"
+"\t\t\t\t\t<li><code>[slidr speed=\"4000\"]</code> : Set the autoscroll speed "
+"in miliseconds. Default value is 4000ms (4 seconds). This option works only "
+"if \"cycle\" parameter, mentioned above, is set to \"auto\".</li>\n"
+"\t\t\t\t\t<li><code>[slidr nav=\"hide\"]</code> : Completely hides the "
+"navigation buttons.</li>\n"
+"\t\t\t\t\t<li><code>[slidr gallery=\"yes\"]</code> : Instead of posts, the "
+"Carousel can be used in \"Gallery mode\" displaying the images attached to "
+"the post in which you call it. By default it is disabled. You can use "
+"gallery mode with specific images, by providing the IDs of those images like "
+"so: <code>[slidr gallery=\"1,2,3\"]</code>. If gallery mode is enabled, then "
+"other conflicting parameters such as post type or hide thumbnail will be "
+"ignored.</li>\n"
+"\t\t\t\t\t<li><code>[slidr gallery_link=\"attachment\"]</code> : Whether "
+"each item's link should lead to the attachment page or the actual media file "
+"if gallery mode is enabled. Default is the Media file. If gallery mode is "
+"set to \"no\" (disabled), then this setting is ignored.</li>\n"
+"\t\t\t\t\t<li><code>[slidr type=\"post_type\"]</code> : The post type whose "
+"items will be displayed in the carousel (e.g. <code>[slidr type=\"post\"]</"
+"code> for posts, <code>[slidr type=\"page\"]</code> for pages etc.). Default "
+"value is \"post\".</li>\n"
+"\t\t\t\t\t<li><code>[slidr number=some_number]</code> : The number of items "
+"to be displayed. Pay attention to the lack of quotation marks (e.g. "
+"<code>[slidr number=15]</code>). Default value is 10.</li>\n"
+"\t\t\t\t\t<li><code>[slidr category=\"category_id\"]</code> : The category "
+"from which you want to get your items. You should use the categorie's ID "
+"like <code>[slidr category=\"2\"]</code>. By default this option is "
+"disabled, to get all categories.</li>\n"
+"\t\t\t\t\t<li><code>[slidr parent=\"parent_page_id\"]</code> : Display the "
+"children of a page. You should use the page's ID like <code>[slidr parent="
+"\"2\"]</code>. By default this option is disabled.</li>\n"
+"\t\t\t\t\t<li><code>[slidr sticky=\"yes\"]</code> : By default the plugin "
+"doesn't care about whether a post is sticky. To only show sticky posts, "
+"though, use <code>[slidr sticky=\"yes\"]</code>).</li>\n"
+"\t\t\t\t\t<li><code>[slidr orderby=\"date\"]</code> : The items' order. "
+"Default order is by date.</li>\n"
+"\t\t\t\t\t<li><code>[slidr order=\"ASC\"]</code> : Whether the order will be "
+"ascending (ASC) or descentind (DESC). Default is \"DESC\" (descending). If "
+"the gallery mode is enabled and is set to get specific images, then this "
+"order option gets ignored and the images are ordered based on how the user "
+"added the image IDs in his/her shortcode.</li>\n"
+"\t\t\t\t\t<li><code>[slidr size=\"thumbnail\"]</code> : The thumbnail size, "
+"based on the registered sizes of your theme. Default value is \"thumbnail\". "
+"Other options usually include \"medium\", \"large\" and \"original\".</li>\n"
+"\t\t\t\t\t<li><code>[slidr thumb=\"no\"]</code> : If you need the carousel "
+"to display posts without thumbnails, you can completely disable images. "
+"Default value is enabled, of course.</li>\n"
+"\t\t\t\t\t<li><code>[slidr info_box=\"no\"]</code> : By default each item "
+"shows a box with the title and excerpt on mouseover or tap. With this option "
+"you can disable it.</li>\n"
+"\t\t\t\t\t<li><code>[slidr excerpt=\"no\"]</code> : Hide the excerpt from "
+"the info box.</li>\n"
+"\t\t\t\t\t<li><code>[slidr img_link=\"no\"]</code> : Remove the link from "
+"each image.</li>\n"
+"\t\t\t\t\t<li><code>[slidr class=\"yourclass\"]</code> : If you have "
+"carousels in many different pages, there is a chance that you want to style "
+"them separately. With this option you can add a custom class at the "
+"carousel's outer container and customize it using CSS.</li>\n"
+"\t\t\t\t\t<li><code>[slidr link=\"none\"]</code> : Removes the link from the "
+"title (in case you want to show the details of an image but not link to its "
+"attachment page or media file).</li>\n"
+"\t\t\t\t\t<li><code>[slidr template=\"no\"]</code> : Removes the default "
+"template for the specific carousel. That way you can keep the default "
+"template for all other carousel instances but remove it for those you wish "
+"to style differently.</li>\n"
+"\t\t\t\t"
+msgstr ""
+
+#: options.php:775
+msgid "Replace default WordPress gallery"
+msgstr ""
+
+#: options.php:777
+msgid ""
+"By enabling <strong>\"Use Slidr for Gallery\"</strong> under the <strong>"
+"\"WordPress Gallery\"</strong> tab, you can replace the default WordPress "
+"gallery ([gallery] shortcode) with Slidr. Doing so you will be able to use "
+"the default gallery management mechanism of WordPress as usual and the "
+"output will be displayed in a Slidr carousel. In a typical use case, you "
+"wouldn't need to mess with shortcodes - just create a gallery via the "
+"WordPress editor as you would anyway and see the results. For example, you "
+"can order set the order via the Gallery Management screen, set the titles "
+"and captions of each image and define whether clicking on images should get "
+"to the media file, attachment page or do nothing. Keep in mind that in those "
+"cases the outputted shortcode is not [slidr] but <strong>[gallery]</strong> "
+"and that many of the aforementioned parameters for the [slidr] shortcode "
+"don't make sense in a gallery context and won't work there. Those which do "
+"work are the following:"
+msgstr ""
+
+#: options.php:777
+msgid ""
+"\n"
+"\t\t\t\t\t<li><code>[gallery height=\"some_number\"]</code> : Set the height "
+"of the gallery.</li>\n"
+"\t\t\t\t\t<li><code>[gallery loader=\"no\"]</code> : Shows a \"loading\" "
+"animation until all items are loaded.</li>\n"
+"\t\t\t\t\t<li><code>[gallery cycle=\"yes\"]</code> : If enabled, when the "
+"carousel reaches its first or last item, instead of stopping it loads the "
+"last or first item respectivelly, simulating a circular move. With "
+"<code>[gallery cycle=\"auto\"]</code> you can enable autoscoll, which "
+"animates the carousel automatically every 4 seconds.</li>\n"
+"\t\t\t\t\t<li><code>[gallery speed=\"4000\"]</code> : Set the autoscroll "
+"speed in miliseconds. Default value is 4000ms (4 seconds). This option works "
+"only if \"cycle\" parameter, mentioned above, is set to \"auto\".</li>\n"
+"\t\t\t\t\t<li><code>[gallery nav=\"hide\"]</code> : Completely hides the "
+"navigation buttons.</li>\n"
+"\t\t\t\t\t<li><code>[gallery orderby=\"menu_order ID\"]</code> : The items' "
+"order. Default order is by the order passed at the media manager.</li>\n"
+"\t\t\t\t\t<li><code>[gallery order=\"ASC\"]</code> : Whether the order will "
+"be ascending (ASC) or descentind (DESC). Default is \"ASC\" (ascending).</"
+"li>\n"
+"\t\t\t\t\t<li><code>[gallery size=\"thumbnail\"]</code> : The thumbnail "
+"size, based on the registered sizes of your theme. Default value is "
+"\"thumbnail\". Other options usually include \"medium\", \"large\" and "
+"\"original\".</li>\n"
+"\t\t\t\t\t<li><code>[gallery thumb=\"no\"]</code> : If you need the carousel "
+"to display posts without thumbnails, you can completely disable images. "
+"Default value is enabled, of course.</li>\n"
+"\t\t\t\t\t<li><code>[gallery info_box=\"no\"]</code> : By default each item "
+"shows a box with the title and excerpt on mouseover or tap. With this option "
+"you can disable it.</li>\n"
+"\t\t\t\t\t<li><code>[gallery excerpt=\"no\"]</code> : Hide the excerpt from "
+"the info box.</li>\n"
+"\t\t\t\t\t<li><code>[gallery img_link=\"no\"]</code> : Remove the link from "
+"each image.</li>\n"
+"\t\t\t\t\t<li><code>[gallery class=\"yourclass\"]</code> : If you have "
+"carousels in many different pages, there is a chance that you want to style "
+"them separately. With this option you can add a custom class at the "
+"carousel's outer container and customize it using CSS.</li>\n"
+"\t\t\t\t\t<li><code>[gallery link=\"none\"]</code> : Removes the link from "
+"the title (in case you want to show the details of an image but not link to "
+"its attachment page or media file).</li>\n"
+"\t\t\t\t\t<li><code>[gallery template=\"no\"]</code> : Removes the default "
+"template for the specific carousel. That way you can keep the default "
+"template for all other carousel instances but remove it for those you wish "
+"to style differently.</li>\n"
+"\t\t\t"
+msgstr ""
+
+#: options.php:798
+msgid "Combinations and alternatives"
+msgstr ""
+
+#: options.php:800
+msgid ""
+"You can combine almost all of the above parameters to customize your query. "
+"For example, <code>[slidr type=\"portfolio\" height=\"200\" number=5 "
+"category=\"5\" size=\"medium\" excerpt=\"no\" class=\"myworks\" cycle=\"auto"
+"\" speed=\"2000\"]</code> should create a carousel of 200 pixels height "
+"which would display the five most recent items from your \"portfolio\" "
+"custom post type, AND under a specific category with the id of \"5\". Items' "
+"thumbnails should use the \"medium\" size and no excerpts should be "
+"displayed. Finally, this carousel should autoscroll its items every 2000ms "
+"(2 seconds) and it should have a custom class \"myworks\".<br/><br/>If you "
+"want to add your carousel directly in your php code, you can use the "
+"<code>&lt;?php echo do_shortcode( '[slidr]' ); ?&gt;</code> function, "
+"setting parameters the same way as previously described."
+msgstr ""
+
+#: options.php:805
+msgid "Customizing infobox's data"
+msgstr ""
+
+#: options.php:807
+msgid ""
+"Perhaps you might want to alter the default display of the title and excerpt "
+"in the infobox. In that case, you can override the output by adding the "
+"following function in your theme's functions.php:<br/><br/><code>&lt;?php "
+"function slidr_custom_content( $link, $title, $excerpt, $a ) { <br/>echo "
+"'Your custom output here'; <br/> } ?&gt;</code><br/><br/>You can call each "
+"item's link, title and excerpt using the <code>$link</code>, <code>$title</"
+"code> and <code>$excerpt</code> variables respectively inside your function "
+"(in the above example you should use it inside your echo). If you have more "
+"than one slidr shortcodes with different attributes for each one, you can "
+"run tests using the <code>$a</code> variable. For example, to test if "
+"gallery mode is disabled: <br/><br/>\n"
+"\t\t\t\t<code>&lt;?php function slidr_custom_content( $link, $title, "
+"$excerpt, $a ) { <br/>\n"
+"\t\t\t\t\tif($a['gallery'] !== 'yes') { <br/>\n"
+"\t\t\t\t\t\t// Do something <br/>\n"
+"\t\t\t\t\t}<br/>\n"
+"\t\t\t\t} ?&gt;</code>"
+msgstr ""
+
+#: options.php:817
+msgid "Overriding default values"
+msgstr ""
+
+#: options.php:819
+msgid ""
+"If you are a theme developer, you can pass your own default values for the "
+"[gallery] shortcode directly in your theme. That way you don't need to "
+"instruct your users to go and set the appropriate values at the Plugin's "
+"options or ask them to mess with the shortcode. You can use it like this:<br/"
+"><br/>\n"
+"\t\t\t\t<code>&lt;?php include_once( ABSPATH . 'wp-admin/includes/plugin."
+"php' );<br/>\n"
+"\t\t\t\tif ( is_plugin_active( 'slidr/slidr.php' ) ) {<br/>\n"
+"\t\t\t\t\tfunction slidr_gallery_defaults() {<br/>\n"
+"\t\t\t\t\t\t$default['enable'] \t\t= 'yes'; \t// Enable or disable Slidr for "
+"Gallery option by default <br/>\n"
+"\t\t\t\t\t\t$default['height'] \t\t= '500'; \t// The gallery height <br/>\n"
+"\t\t\t\t\t\t$default['size'] \t\t= 'medium'; // Thumbnail size <br/>\n"
+"\t\t\t\t\t\t$default['speed'] \t\t= '4000'; \t// Carousel speed if \"cycle\" "
+"mode is set to \"auto\" <br/>\n"
+"\t\t\t\t\t\t$default['info_box'] \t= 'yes'; \t// Show or hide infobox <br/>\n"
+"\t\t\t\t\t\t$default['excerpt'] \t= 'no'; \t// Show or hide excerpt <br/>\n"
+"\t\t\t\t\t\t$default['loader'] \t\t= 'yes'; \t// Use loading animation <br/"
+">\n"
+"\t\t\t\t\t\t$default['nav'] \t\t= 'show'; \t// Show or hide navigation "
+"buttons <br/> \n"
+"\t\t\t\t\t\t$default['cycle'] \t\t= 'no'; \t// Enable or disable \"cycle\" "
+"mode (options are \"yes\", \"no\" and \"auto\") <br/>\n"
+"\t\t\t\t\t\t$default['template'] \t= 'no'; \t// Disable the default template "
+"<br/>\n"
+"\t\t\t\t\t\t$default['class']\t\t= 'myclass' // Pass your class to the "
+"container <br/>\n"
+"\t\t\t\t\t\t$default['link_class'] \t= 'myclass' // Pass class to the link "
+"<br/>\n"
+"\t\t\t\t\t\t$default['img_link'] \t= 'no' \t\t// Enable or disable image "
+"link <br/>\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\treturn $default; <br/>\n"
+"\t\t\t\t\t}<br/>\n"
+"\t\t\t\t} ?&gt;</code>"
+msgstr ""
+
+#: options.php:844
+msgid "Customizing conditional loading"
+msgstr ""
+
+#: options.php:846
+msgid ""
+"To further customize conditional loading of the plugin's resources, put <br/"
+"><br/><code>&lt;?php function slidr_conditional() { <br/"
+">if( YOUR_CONDITIONS ) { <br/>slidr_dequeue(); <br/>}<br/> } ?&gt;</code> "
+"<br/><br/>in your theme's <strong>functions.php</strong> file. For details "
+"on <strong>Conditional Tags</strong> check the <a href=\"http://codex."
+"wordpress.org/Conditional_Tags\" target=\"_blank\">Codex</a>."
+msgstr ""
+
+#: options.php:851
+msgid "Slidr in widgets"
+msgstr ""
+
+#: options.php:853
+msgid ""
+"If you want to add a carousel in your WordPress Sidebar Widgets, you need to "
+"enable shortcodes in your WordPress sidebar. To do so, paste "
+"<code>add_filter('widget_text', 'do_shortcode');</code> in your "
+"<strong>functions.php</strong> file. Then all you have to do is go to your "
+"<strong>Appearance » Widgets</strong> Screen and create a <strong>text "
+"widget</strong>. There you can paste <code>[slidr]</code> (or any shortcode "
+"that you have enabled on your site for that matter), and it will function "
+"properly."
+msgstr ""
+
+#: options.php:858
+msgid "Custom loop"
+msgstr ""
+
+#: options.php:860
+msgid ""
+"The plugin contains the <code>slidr_loop()</code> function, which allows you "
+"to use your own custom loop instead of the plugin's parameters. That means "
+"that you can keep all the existing functionality of the carousel, but the "
+"content with which you will fill it is entirely up to you. For example, you "
+"could create a carousel displaying videos, instagram photos or any other "
+"content that you wish to format in a particular way. Your custom loop can be "
+"a typical foreach() php loop and the only thing you need to do is adding the "
+"<code>slidr-item</code> class to the container of each of your loop's items. "
+"Then, you call the function like this: "
+"<code>slidr_loop('your_loop_function')</code> Here is a simple example which "
+"shows some youtube videos in a carousel:<br/><br/>\n"
+"\t\t\t\t<code>\n"
+"\t\t\t\t\tfunction my_loop() {<br/>\n"
+"\t\t\t\t\t\t$myloop = array('n64TMQH0rxg', 'JwYX52BP2Sk', 'Ahr4KFl79WI', "
+"'yFAnn2j4iB0', '6fMnF0Fvdpo', 'dFh71_ftxLE');<br/>\n"
+"\t\t\t\t\t\t$output = '';<br/>\n"
+"\t\t\t\t\t\tforeach ($myloop as $item) {<br/>\n"
+"\t\t\t\t\t\t\t$output .= '&lt;div class=\"slidr-item\" style=\"height: 290px;"
+"max-height: none;\"&gt;\n"
+"\t\t\t\t\t\t\t\t&lt;iframe width=\"420\" height=\"315\" src=\"https://www."
+"youtube.com/embed/' . $item . '\" frameborder=\"0\" allowfullscreen&gt;\n"
+"\t\t\t\t\t\t\t\t&lt;/iframe&gt;&lt;/div&gt;';<br/>\n"
+"\t\t\t\t\t\t}<br/>\n"
+"\t\t\t\t\t\treturn $output;<br/>\n"
+"\t\t\t\t\t}\n"
+"\t\t\t\t</code><br/><br/>\n"
+"\t\t\t\tAfter creating the above loop, you would call it like that: "
+"<code>echo slidr_loop('my_loop');</code>. If you want to customize the "
+"plugin's parameters, you have the following options available:<br/><br/>\n"
+"\t\t\t\t<code>slidr_loop($loop, $height, $class, $cycle, $loader, $nav, "
+"$larrow, $rarrow)</code>. Here's a detailed explanation of each parameter:"
+"<br/><br/>\n"
+"\t\t\t\t<ol>\n"
+"\t\t\t\t\t<li><code>$loop</code>: Accepts a function (your custom loop). It "
+"is the only required parameter in order for you to have a functional "
+"carousel.</li>\n"
+"\t\t\t\t\t<li><code>$height</code>: Accepts a string with a number. (e.g. "
+"'500'). It sets the carousel's height.</li>\n"
+"\t\t\t\t\t<li><code>$class</code>: Aceepts a string with your custom classes "
+"(e.g. 'class-1 class-2'). If left empty, it defaults to 'default'. </li>\n"
+"\t\t\t\t\t<li><code>$cycle</code>: Options include: true, false, 'auto', "
+"'SPEED_NUMBER_IN_MS'. true enables cycling, 'auto' enables cycling AND auto "
+"cycles the slides, 'SPEED_NUMBER_IN_MS' (e.g. '2000') enables cycling AND "
+"ayto cycles the slides AND sets your custom cycling speed in ms. </li>\n"
+"\t\t\t\t\t<li><code>$loader</code>: Options include: true, false, 'Your "
+"custom text'. true enables the loader, false disables it and a custom string "
+"(e.g. 'Loading slider...') enables the loader AND sets a custom text "
+"message. </li>\n"
+"\t\t\t\t\t<li><code>$nav</code>: If set to true or left empty it shows the "
+"navigation arrows. If set to false it hides them.</li>\n"
+"\t\t\t\t\t<li><code>$larrow</code>: Accepts a string to change the default "
+"left arrow. You can add html, font icons, plain text or special characters.</"
+"li>\n"
+"\t\t\t\t\t<li><code>$rarrow</code>: Accepts a string to change the default "
+"right arrow. You can add html, font icons, plain text or special characters. "
+"</li>\n"
+"\t\t\t\t</ol>\n"
+"\t\t\t\tA full example would be something like that: <br/><br/>\n"
+"\t\t\t\t<code>&lt;?php echo slidr_loop('my_loop', '500', 'myclass-1 "
+"myclass-2', '2000', 'Loading videos...', true, 'previous', 'next'); ?&gt;</"
+"code><br/><br/>\n"
+"\t\t\t\tThe above would set the container height to 500px, add two custom "
+"classes, set auto cycle with a speed of 2000ms, change the loader text and "
+"change the navigation arrows.\n"
+"\t\t\t\t"
+msgstr ""
+
+#: options.php:893
+msgid "Minimum requirements"
+msgstr ""
+
+#: options.php:895
+msgid ""
+"This plugin has been initially tested with Wordpress 4.1 and above. It might "
+"probably work with older versions too, but you should always use the latest "
+"version of Wordpress anyway."
+msgstr ""
+
+#: options.php:900
+msgid "I found a bug / I have a suggestion or a feature request."
+msgstr ""
+
+#: options.php:902
+msgid ""
+"You can post a message at the plugin's <a target=\"_blank\" href=\"http://"
+"wordpress.org/support/plugin/slidr\">support forum</a> and I will to my best "
+"to help you out."
+msgstr ""
+
+#: slidr.php:25
+msgid "Settings"
+msgstr ""
