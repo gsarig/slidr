@@ -3,8 +3,8 @@ Contributors: gsarig
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTB3APJDMT9UN
 Tags: carousel, image carousel, thumbnail slider, slideshow, gallery, image gallery
 Requires at least: 4.0
-Tested up to: 4.5
-Stable tag: 1.4
+Tested up to: 6.1
+Stable tag: 1.4.1
 License: GPLv2 or later
 
 A clean, simple, responsive and touch-friendly Carousel with no bells and whistles but plenty of flexibility.
@@ -190,6 +190,9 @@ Slidr's main goal is to be lightweight and flexible, with the minimum possible r
 4. The documentation tab
 
 == Changelog ==
+
+= 1.4.1 =
+* Fixes a PHP 8 error
 
 = 1.4 =
 * PHP 7 compatibility

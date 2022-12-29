@@ -3,14 +3,14 @@
 	Plugin Name: Slidr
 	Plugin URI: http://wordpress.org/plugins/slidr/
 	Description: A clean, simple, responsive and touch-friendly Carousel with no bells and whistles but plenty of flexibility.
-	Version: 1.4
+	Version: 1.4.1
 	Author: Giorgos Sarigiannidis
 	Author URI: http://www.gsarigiannidis.gr
 	Text Domain: slidr
 	Domain Path: /languages
 	*/
 
-	define( 'SLIDR_VERSION', '1.4' );
+	define( 'SLIDR_VERSION', '1.4.1' );
 
 	load_plugin_textdomain('slidr', false, basename( dirname( __FILE__ ) ) . '/languages' ); // Localize it
 

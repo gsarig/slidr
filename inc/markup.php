@@ -30,8 +30,8 @@
 	*/
 	$height = filter_var($a['height'], FILTER_SANITIZE_NUMBER_INT);
 	if( slidr('height') !== $height && ( $a['template'] !== 'no' ) ) {
-		$container_height 	= $height + 40;
-		$nav_position 		= $height / 2 - 25;
+		$container_height 	= intval( $height ) + 40;
+		$nav_position 		= intval( $height ) / 2 - 25;
 
 		$car_style 	= ' style="height:' . $height . 'px;"';
 		$con_style 	= ' style="height:' . $container_height . 'px;"';
