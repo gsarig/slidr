@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: carousel, image carousel, thumbnail slider, slideshow, gallery, image gallery
 Requires at least: 4.0
 Tested up to: 6.1
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv2 or later
 
 A clean, simple, responsive and touch-friendly Carousel with no bells and whistles but plenty of flexibility.
