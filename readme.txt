@@ -3,7 +3,7 @@ Contributors: gsarig
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTB3APJDMT9UN
 Tags: carousel, image carousel, thumbnail slider, slideshow, gallery, image gallery
 Requires at least: 4.0
-Tested up to: 6.1
+Tested up to: 6.4
 Stable tag: 1.4.2
 License: GPLv2 or later
 
