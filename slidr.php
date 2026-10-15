@@ -12,7 +12,10 @@
 
 	define( 'SLIDR_VERSION', '1.4.2' );
 
-	load_plugin_textdomain('slidr', false, basename( dirname( __FILE__ ) ) . '/languages' ); // Localize it
+	function slidr_load_textdomain() { // Localize it
+		load_plugin_textdomain('slidr', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	}
+	add_action( 'init', 'slidr_load_textdomain' );
 
 	if ( is_admin() ) // Display the plugin's options at the backend
 		require_once dirname( __FILE__ ) . '/options.php';
