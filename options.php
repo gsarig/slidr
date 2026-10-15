@@ -169,10 +169,6 @@ class Slidr_Options {
 				else
 					$(this).parent().css("background", "none").css("color", "inherit").css("fontWeight", "normal");
 			});
-			
-			// Browser compatibility
-			if ($.browser.mozilla) 
-				$("form").attr("autocomplete", "off");
 		});
 	</script>
 </div>';
@@ -994,4 +990,9 @@ class Slidr_Options {
 	
 }
 
-$slidr_options = new Slidr_Options();
+// Instantiated on init, because the settings use translated strings that can't load earlier.
+function slidr_options_init() {
+	global $slidr_options;
+	$slidr_options = new Slidr_Options();
+}
+add_action( 'init', 'slidr_options_init' );
