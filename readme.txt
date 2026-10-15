@@ -3,8 +3,8 @@ Contributors: gsarig
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTB3APJDMT9UN
 Tags: carousel, image carousel, thumbnail slider, slideshow, gallery, image gallery
 Requires at least: 4.0
-Tested up to: 6.4
-Stable tag: 1.4.2
+Tested up to: 7.1
+Stable tag: 1.4.3
 License: GPLv2 or later
 
 A clean, simple, responsive and touch-friendly Carousel with no bells and whistles but plenty of flexibility.
@@ -190,6 +190,11 @@ Slidr's main goal is to be lightweight and flexible, with the minimum possible r
 4. The documentation tab
 
 == Changelog ==
+
+= 1.4.3 =
+* Fixes the "translation loading was triggered too early" notice on WordPress 6.7 and later.
+* Removes an obsolete jQuery browser check that caused a JavaScript error on the settings screen.
+* Tested up to WordPress 7.1.
 
 = 1.4.1 =
 * Fixes a PHP 8 error
